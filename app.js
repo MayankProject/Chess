@@ -677,8 +677,8 @@ function movePiece(chosenSquare, chosenPiece, chosenPiecePositions, nextTurn=tru
 
     //Time to load
     setTimeout(() => {
-        chosenPiece.style.left = targetOffsetLeft + 10 + 'px';
-        chosenPiece.style.top = targetOffsetTop + 10 + 'px';
+        chosenPiece.style.left = targetOffsetLeft + 6 + 'px';
+        chosenPiece.style.top = targetOffsetTop + 6 + 'px';
 
         //Changing in original Data (piecePosition Array)
         piecePositions[selectedPiece] = [chosenSquarePosition['column'], chosenSquarePosition['row']]
