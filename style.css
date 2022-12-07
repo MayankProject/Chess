@@ -13,7 +13,7 @@
     background: #312E2B;
 }
 .board{
-    width: 45%;
+    width: 600px;
     height: 90%;
     display: flex;
     flex-wrap: wrap;
